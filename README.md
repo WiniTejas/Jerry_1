@@ -25,6 +25,31 @@ public class Reverse
         B = X;
         Console.WriteLine("after swap first num is " + A + " second num is " + B);
         
+        
+        /////////////////////////////
+        
+        new program for Q1 Assignment 27 feb 2022
+        
+            string a, b, temp;
+            Console.WriteLine("enter first string");
+            a = Console.ReadLine();
+            Console.WriteLine("enter second string");
+            b = Console.ReadLine();
+            if (a == b)
+            {
+                Console.WriteLine("entered strings are same");
+                temp = a;
+                a = b;
+                b = temp;
+            }
+            else
+                Console.WriteLine("entered strings are not equal");
+            Console.WriteLine("{0}  {1}", a, b);
+        }
+    }
+}
+        
+        
  
     }
 }
